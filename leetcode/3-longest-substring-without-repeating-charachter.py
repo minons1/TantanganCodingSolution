@@ -9,7 +9,6 @@ class Solution:
                   substring = substring[substring.index(char) + 1:] + char
               cur_len = len(substring)
               max_len = cur_len if cur_len > max_len else max_len
-              print(substring)
           return max_len
 
 sol = Solution()
