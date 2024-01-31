@@ -23,8 +23,6 @@ class Solution:
             else:
                 print('else')
                 last = nums1.pop(0) if num1 <= num2 else nums2.pop(0)
-
-            print(second_from_last, last)
         
         return (last + second_from_last) / 2 if is_even else last
 
